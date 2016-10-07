@@ -26,7 +26,7 @@ namespace string_formatering
             Console.WriteLine("skriv in personnummer");
             string pnmr = Console.ReadLine();
             decimal persontal = decimal.Parse(pnmr);
-            Console.WriteLine(persontal.ToString(""));
+            Console.WriteLine(persontal.ToString("#### ## ## - ####"));
         }
     }
 }
